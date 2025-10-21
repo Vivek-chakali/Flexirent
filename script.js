@@ -55,7 +55,7 @@ function searchHouses() {
         filtered.forEach(h => {
             const li = document.createElement('li');
             // ✅ FIXED: use template literal with backticks
-            li.textContent = `${h.location} - ${h.desc}`;
+            li.textContent = ${h.location} - ${h.desc};
             resultsEl.appendChild(li);
         });
     }
