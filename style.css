@@ -3,22 +3,22 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #fff8dc;
+    background-image: radial-gradient(#fff8db, #fae38c);
     color: #333;
     text-align: center;
 }
+
 .image {
-    background-image: url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg');
+
     border-radius: 30px;
     background-size: cover;
     background-position: center;
     height: 50vh;
-    display: flex;
-    align-items: flex-end;
+
     justify-content: center;
-    padding: 20px;
-    margin-bottom: 20px;
+
 }
+
 .image-heading {
     color: black;
     font-size: 30px;
@@ -26,6 +26,7 @@ body {
     text-align: center;
     text-shadow: 1px 1px 5px black;
 }
+
 .page.hidden {
     display: none;
 }
@@ -79,13 +80,13 @@ header h1 {
 }
 
 .card {
-    background: #ffeaa7;
-    width: 150px;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 0 10px #999;
-    cursor: pointer;
-    transition: transform 0.2s;
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 15px;
+    transition: 0.3s;
 }
 
 .card:hover {
